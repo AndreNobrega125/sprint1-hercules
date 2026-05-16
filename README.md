@@ -105,6 +105,8 @@ Acesse **http://localhost:3000** no navegador.
 
 Para simular a experiência mobile, pressione `F12` no Chrome e ative o modo de dispositivo móvel (iPhone 14 Pro recomendado).
 
+Para acessar o app clique nesse link: https://sprint1-hercules.vercel.app/login
+
 ---
 
 ## Status do Projeto
