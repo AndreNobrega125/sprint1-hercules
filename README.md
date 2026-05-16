@@ -14,9 +14,12 @@ A Motiva/CCR enfrenta desafios significativos no monitoramento da vegetação ao
 
 | Nome | RM |
 |------|----|
-| *(preencher)* | *(preencher)* |
-| *(preencher)* | *(preencher)* |
-| *(preencher)* | *(preencher)* |
+| *(André Nobrega)* | *(RM561754)* |
+| *(André Gouveia )* | *(RM564219)* |
+| *(Caio Carminato )* | *(RM563630)* |
+| *(Guilherme Tamai )* | *(RM5563276)* |
+| *(Mirella Mascarenhas )* | *(RM562092)* |
+| *(Vitor Komura )* | *(RM563694)* |
 
 ---
 
