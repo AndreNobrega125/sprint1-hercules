@@ -234,13 +234,7 @@ Para acessar o app clique nesse link: https://sprint1-hercules.vercel.app/login
 
 ---
 
-## Status do Projeto
-
-| Sprint | Status | Entrega |
-|--------|--------|---------|
-| Sprint 1 — Exploração, Requisitos e Protótipo | Concluída | Mai/2026 |
-| Sprint 2 — MVP com IA | Planejada | — |
-| Sprint 3 — Integração e Testes | Planejada | — |
+## Interface da Aplicação
 
 ---
 
