@@ -238,12 +238,16 @@ Para acessar o app clique nesse link: https://sprint1-hercules.vercel.app/login
 
 ### Login e Autenticação
 
+<br>
+
 <p align="center">
   <img src="./docs/login.png" width="22%"/>
   <img src="./docs/login(preenchido).png" width="22%"/>
 </p>
 
 ### Dashboard e Monitoramento
+
+<br>
 
 <p align="center">
   <img src="./docs/telainicial.png" width="22%"/>
@@ -254,6 +258,8 @@ Para acessar o app clique nesse link: https://sprint1-hercules.vercel.app/login
 
 ### Fluxo de Nova Vistoria
 
+<br>
+
 <p align="center">
   <img src="./docs/novavistoria.png" width="22%"/>
   <img src="./docs/novavistoria2.png" width="22%"/>
@@ -262,6 +268,8 @@ Para acessar o app clique nesse link: https://sprint1-hercules.vercel.app/login
 </p>
 
 ### Registro da Vistoria
+
+<br>
 
 <p align="center">
   <img src="./docs/registrovistoria.png" width="22%"/>
