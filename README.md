@@ -24,7 +24,7 @@ O monitoramento da vegetação ao longo das rodovias concedidas à Motiva/CCR de
 
 | Nome | RM |
 |------|----|
-| *(André Mobrega)* | *(RM561754)* |
+| *(André Nobrega)* | *(RM561754)* |
 | *(André Gouveia)* | *(RM564219)* |
 | *(Caio Carminato)* | *(RM563630)* |
 | *(Guilherme Tamai )* | *(RM563276)* |
