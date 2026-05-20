@@ -1,10 +1,12 @@
+'use client';
 import MobileShell from '@/components/MobileShell';
 import Link from 'next/link';
 import { trechos, resumo } from '@/lib/mock-data';
 import StatusBadge from '@/components/StatusBadge';
 import StatusDonut from '@/components/StatusDonut';
-import { AlertTriangle, ChevronRight, ClipboardCheck, TrendingUp, Thermometer } from 'lucide-react';
+import { AlertTriangle, ChevronRight, ClipboardCheck, TrendingUp, Thermometer, LogOut } from 'lucide-react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 const trechosPorAltura = [...trechos].sort((a, b) => b.altura_cm - a.altura_cm);
 
@@ -20,6 +22,7 @@ const donutSlices = [
 ];
 
 export default function DashboardPage() {
+  const router = useRouter();
   const criticos = trechosPorAltura.filter(t => t.status === 'critico');
 
   return (
@@ -31,9 +34,15 @@ export default function DashboardPage() {
       >
         <div className="flex items-center justify-between mb-3">
           <Image src="/logomotiva.png" alt="Motiva" width={32} height={32} priority className="rounded-lg" />
-          <span className="text-xs font-bold tracking-widest" style={{ color: 'rgba(255,255,255,0.7)' }}>
-            VeroAI
-          </span>
+          <span className="text-sm font-bold tracking-widest text-white">VeroAI</span>
+          <button
+            onClick={() => router.push('/login')}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-colors"
+            style={{ background: 'rgba(255,255,255,0.15)', color: 'rgba(255,255,255,0.9)' }}
+          >
+            <LogOut size={14} />
+            Sair
+          </button>
         </div>
         <p className="text-sm" style={{ color: 'rgba(255,255,255,0.9)' }}>
           Bom dia, <span className="font-bold text-white">João Silva</span> 👋
