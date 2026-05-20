@@ -24,9 +24,12 @@ O monitoramento da vegetação ao longo das rodovias concedidas à Motiva/CCR de
 
 | Nome | RM |
 |------|----|
-| *(preencher)* | *(preencher)* |
-| *(preencher)* | *(preencher)* |
-| *(preencher)* | *(preencher)* |
+| *(André Mobrega)* | *(RM561754)* |
+| *(André Gouveia)* | *(RM564219)* |
+| *(Caio Carminato)* | *(RM563630)* |
+| *(Guilherme Tamai )* | *(RM563276)* |
+| *(Mirella Mascarenhas)* | *(RM562092)* |
+| *(Vitor Komura)* | *(RM563694)* |
 
 ---
 
@@ -107,7 +110,7 @@ O protótipo foi desenvolvido como **aplicação web responsiva mobile-first**, 
 
 ```bash
 # Clonar o repositório
-git clone <URL_DO_REPOSITORIO>
+git clone <(https://github.com/AndreNobrega125/sprint1-hercules)>
 cd veroai
 
 # Instalar dependências
@@ -118,6 +121,8 @@ npm run dev
 ```
 
 Acesse **http://localhost:3000** no navegador.
+
+Link do app: https://sprint1-hercules.vercel.app/login
 
 Para simular a experiência mobile, pressione `F12` no Chrome e ative o modo de dispositivo móvel (iPhone 14 Pro recomendado).
 
