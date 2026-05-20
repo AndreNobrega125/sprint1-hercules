@@ -99,7 +99,7 @@ Para a Sprint 1, optou-se por uma **aplicação web responsiva mobile-first** em
 
 O protótipo foi desenvolvido como **aplicação web responsiva mobile-first**, simulando a experiência de uso de um aplicativo nativo. A escolha por um site responsivo hospedado na Vercel, em substituição ao Figma, permite ao avaliador percorrer o fluxo principal completo com interações reais — navegação entre telas, formulários funcionais, lógica de classificação automática e transições de estado — sem necessidade de instruções adicionais.
 
-> **Link do Protótipo:** *(inserir após deploy na Vercel)*
+Link do app: https://sprint1-hercules.vercel.app/login
 
 **Fluxo principal:**
 `Login → Dashboard → Trechos → Detalhe → Nova Vistoria → Foto → Classificação → Recomendação → Relatório`
@@ -122,8 +122,6 @@ npm run dev
 
 Acesse **http://localhost:3000** no navegador.
 
-Link do app: https://sprint1-hercules.vercel.app/login
-
 Para simular a experiência mobile, pressione `F12` no Chrome e ative o modo de dispositivo móvel (iPhone 14 Pro recomendado).
 
 ---
@@ -138,6 +136,15 @@ Para simular a experiência mobile, pressione `F12` no Chrome e ative o modo de 
 
 ---
 
+Fotos do nosso MVP: 
+
+| Tela de login | Tela inicial | Tela com os trechos | Cadastro vistoria |
+|---------------|--------------|---------------------|-------------------|
+| ![Foto 1](imagens/foto1.png) | ![Foto 2](imagens/foto2.png) | ![Foto 3](imagens/foto3.png) | ![Foto 4](imagens/foto4.png) |
+
+|  Tela trecho com fotos | Classfica vegeteção| Tela recomendação | Tela relatório |
+|------------------------|--------------------|-------------------|----------------|
+| ![Foto 5](imagens/foto5.png) | ![Foto 6](imagens/foto6.png) | ![Foto 7](imagens/foto7.png) | ![Foto 8](imagens/foto8.png) |
 ## Próximos Passos — Sprint 2
 
 - Integração com API de visão computacional (CNN) para análise automática de altura a partir de fotos
@@ -150,6 +157,5 @@ Para simular a experiência mobile, pressione `F12` no Chrome e ative o modo de 
 
 ---
 
-## Licença
 
 Projeto acadêmico desenvolvido para o **Challenge CCR Motiva — FIAP 2026**.
