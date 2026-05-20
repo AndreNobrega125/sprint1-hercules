@@ -131,8 +131,7 @@ Para simular a experiência mobile, pressione `F12` no Chrome e ative o modo de 
 | Sprint | Status | Entrega |
 |--------|--------|---------|
 | Sprint 1 — Exploração, Requisitos e Protótipo | Concluída | Mai/2026 |
-| Sprint 2 — MVP com IA | Planejada | — |
-| Sprint 3 — Integração e Testes | Planejada | — |
+| Sprint 2 — MVP com app no Android Studio | Planejada | Junho/2026 |
 
 ---
 
