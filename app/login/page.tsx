@@ -1,7 +1,8 @@
 'use client';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Leaf, Eye, EyeOff } from 'lucide-react';
+import { Eye, EyeOff } from 'lucide-react';
+import Image from 'next/image';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -20,24 +21,21 @@ export default function LoginPage() {
   }
 
   return (
-    <div
-      className="min-h-screen flex flex-col"
-      style={{ background: 'linear-gradient(160deg, rgb(100,99,220) 0%, rgb(136,135,243) 50%, rgb(179,94,232) 100%)' }}
-    >
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div
+        className="w-full max-w-[430px] min-h-screen flex flex-col overflow-hidden"
+        style={{ background: 'rgb(101,82,245)' }}
+      >
       {/* Topo */}
       <div className="flex flex-col items-center justify-center pt-20 pb-10 px-6">
-        <div className="bg-white rounded-full p-4 mb-4 shadow-lg">
-          <Leaf size={40} style={{ color: 'rgb(136,135,243)' }} />
-        </div>
-        <h1 className="text-white text-3xl font-extrabold tracking-tight">VeroAI</h1>
-        <p className="text-sm mt-1 text-center" style={{ color: 'rgba(255,255,255,0.8)' }}>
+        <Image src="/logomotiva.png" alt="Motiva" width={80} height={80} priority className="mb-4 rounded-2xl" />
+        <p className="text-sm mt-1 text-center" style={{ color: 'rgba(255,255,255,0.7)' }}>
           Monitoramento Inteligente de Vegetação
         </p>
-        <p className="text-xs mt-1" style={{ color: 'rgba(255,255,255,0.6)' }}>Motiva / CCR</p>
       </div>
 
       {/* Card de login */}
-      <div className="flex-1 bg-white rounded-t-3xl px-6 pt-8 pb-10">
+      <div className="bg-white rounded-3xl mx-4 mb-6 px-6 pt-8 pb-10 shadow-xl">
         <h2 className="text-gray-800 text-xl font-bold mb-1">Acesso Fiscal</h2>
         <p className="text-gray-400 text-sm mb-6">Entre com sua matrícula e senha corporativa.</p>
 
@@ -93,6 +91,7 @@ export default function LoginPage() {
         <p className="text-center text-xs text-gray-400 mt-6">
           Problemas de acesso? Contate o suporte técnico Motiva.
         </p>
+      </div>
       </div>
     </div>
   );

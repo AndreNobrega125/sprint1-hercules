@@ -3,7 +3,8 @@ import Link from 'next/link';
 import { trechos, resumo } from '@/lib/mock-data';
 import StatusBadge from '@/components/StatusBadge';
 import StatusDonut from '@/components/StatusDonut';
-import { AlertTriangle, Leaf, ChevronRight, ClipboardCheck, TrendingUp, Thermometer } from 'lucide-react';
+import { AlertTriangle, ChevronRight, ClipboardCheck, TrendingUp, Thermometer } from 'lucide-react';
+import Image from 'next/image';
 
 const trechosPorAltura = [...trechos].sort((a, b) => b.altura_cm - a.altura_cm);
 
@@ -26,17 +27,12 @@ export default function DashboardPage() {
       {/* ── Header ── */}
       <header
         className="px-5 pt-12 pb-8"
-        style={{ background: 'linear-gradient(135deg, rgb(100,99,220) 0%, rgb(136,135,243) 60%, rgb(179,94,232) 100%)' }}
+        style={{ background: 'rgb(101,82,245)' }}
       >
         <div className="flex items-center justify-between mb-3">
-          <div className="flex items-center gap-2">
-            <div className="bg-white/20 rounded-xl p-1.5">
-              <Leaf size={20} className="text-white" />
-            </div>
-            <span className="text-white font-extrabold text-xl tracking-tight">VeroAI</span>
-          </div>
-          <span className="text-xs bg-white/15 px-2 py-1 rounded-full" style={{ color: 'rgba(255,255,255,0.85)' }}>
-            Motiva / CCR
+          <Image src="/logomotiva.png" alt="Motiva" width={32} height={32} priority className="rounded-lg" />
+          <span className="text-xs font-bold tracking-widest" style={{ color: 'rgba(255,255,255,0.7)' }}>
+            VeroAI
           </span>
         </div>
         <p className="text-sm" style={{ color: 'rgba(255,255,255,0.9)' }}>
