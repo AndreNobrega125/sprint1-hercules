@@ -138,12 +138,12 @@ Para simular a experiência mobile, pressione `F12` no Chrome e ative o modo de 
 Fotos do nosso MVP: 
 
 | Tela de login | Tela inicial | Tela com os trechos | Cadastro vistoria |
-|---------------|--------------|---------------------|-------------------|
-| ![Tela login](docs/Tela login.png) | ![Tela inicial](docs/Tela inicio.png) | ![Tela com os trechos](docs/Tela trecho.png) | ![Cadastro vistoria](docs/vistoria.png) |
+|---|---|---|---|
+| ![](docs/Tela%20login.png) | ![](docs/Tela%20inicio.png) | ![](docs/Tela%20trecho.png) | ![](docs/vistoria.png) |
 
 | Tela trecho com fotos | Classifica vegetação | Tela recomendação | Tela relatório |
-|----------------------|----------------------|-------------------|----------------|
-| ![Tela trecho com fotos](docs/Registro foto.png) | ![Classifica vegetação](docs/Vegetação.png) | ![Tela recomendação](docs/Recomendação.png) | ![Tela relatório](docs/Tela relatório.png) |
+|---|---|---|---|
+| ![](docs/Registro%20foto.png) | ![](docs/Vegetação.png) | ![](docs/Recomendação.png) | ![](docs/Tela%20relatório.png) |
 
 ---
 
