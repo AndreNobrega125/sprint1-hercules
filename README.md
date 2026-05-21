@@ -139,11 +139,11 @@ Fotos do nosso MVP:
 
 | Tela de login | Tela inicial | Tela com os trechos | Cadastro vistoria |
 |---------------|--------------|---------------------|-------------------|
-| ![Tela login](docs/tela-login.png) | ![Tela inicial](docs/tela-inicio.png) | ![Tela com os trechos](docs/tela-trecho.png) | ![Cadastro vistoria](docs/vistoria.png) |
+| ![Tela login](docs/Tela-login.png) | ![Tela inicial](docs/Tela-inicio.png) | ![Tela com os trechos](docs/Tela-trecho.png) | ![Cadastro vistoria](docs/vistoria.png) |
 
 | Tela trecho com fotos | Classifica vegetação | Tela recomendação | Tela relatório |
 |----------------------|----------------------|-------------------|----------------|
-| ![Tela trecho com fotos](docs/registro-foto.png) | ![Classifica vegetação](docs/vegetacao.png) | ![Tela recomendação](docs/recomendacao.png) | ![Tela relatório](docs/tela-relatorio.png) |
+| ![Tela trecho com fotos](docs/Registro-foto.png) | ![Classifica vegetação](docs/Vegetacao.png) | ![Tela recomendação](docs/Recomendacao.png) | ![Tela relatório](docs/Tela-relatório.png) |
 
 ---
 
