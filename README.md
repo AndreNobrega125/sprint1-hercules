@@ -133,67 +133,7 @@ Para a Sprint 1, optou-se por uma **aplicação web responsiva mobile-first** em
 
 ---
 
-Requisitos Funcionais (RF)
-| ID | Descrição | Prioridade |
-
-|----|-----------|------------|
-
-| RF01 | O sistema deve permitir o login do fiscal com matrícula e senha | Alta |
-
-| RF02 | O sistema deve exibir um dashboard com resumo dos trechos por status de conformidade | Alta |
-
-| RF03 | O sistema deve listar todos os trechos monitorados com status, altura e data da última vistoria | Alta |
-
-| RF04 | O sistema deve agrupar os trechos por dia da semana da última vistoria | Média |
-
-| RF05 | O sistema deve exibir os detalhes de cada trecho, incluindo histórico de vistorias | Alta |
-
-| RF06 | O sistema deve permitir iniciar uma nova vistoria vinculada a um trecho específico | Alta |
-
-| RF07 | O sistema deve permitir o registro ou simulação de fotografia da vegetação como evidência | Alta |
-
-| RF08 | O sistema deve permitir ao fiscal informar a altura estimada da vegetação | Alta |
-
-| RF09 | O sistema deve classificar automaticamente a vegetação em OK, Atenção ou Crítico com base nos limites regulatórios ARTESP/ANTT | Alta |
-
-| RF10 | O sistema deve gerar uma recomendação de ação com prazo com base na classificação | Alta |
-
-| RF11 | O sistema deve exibir um relatório consolidado com gráficos de altura por trecho e tendência mensal | Média |
-
-| RF12 | O sistema deve exibir o índice de conformidade regulatória dos trechos | Média |
-
-| RF13 | O sistema deve exibir alertas visuais destacados para trechos com status Crítico | Média |
-
-| RF14 | O sistema deve registrar data, hora e fiscal responsável em cada vistoria | Alta |
-
-| RF15 | O sistema deve ordenar trechos e alertas pela maior criticidade (maior altura primeiro) | Alta |
-
----
-
-Requisitos Não Funcionais (RNF)
-| ID | Descrição | Categoria |
-
-|----|-----------|-----------|
-
-| RNF01 | A interface deve ser mobile-first, com largura máxima de 430px, adaptada ao uso em campo | Usabilidade |
-
-| RNF02 | O tempo de carregamento de cada tela deve ser inferior a 2 segundos | Performance |
-
-| RNF03 | A aplicação deve funcionar nos navegadores Chrome e Safari mobile | Compatibilidade |
-
-| RNF04 | O sistema deve ser responsivo para diferentes tamanhos de tela mobile | Usabilidade |
-
-| RNF05 | Os dados devem ser simulados localmente (mock) na Sprint 1, sem necessidade de backend real | Arquitetura |
-
-| RNF06 | O código deve ser escrito em TypeScript com tipagem explícita para facilitar manutenção | Manutenibilidade |
-
-| RNF07 | O deploy deve ser realizado na Vercel com CI/CD automático via GitHub | Infraestrutura |
-
-| RNF08 | A aplicação não deve armazenar dados sensíveis no cliente | Segurança |
-
-| RNF09 | A classificação de risco deve seguir estritamente os limites regulatórios definidos pela ARTESP/ANTT | Conformidade |
-
-# Requisitos Funcionais (RF)
+## Requisitos Funcionais (RF)
 
 | ID   | Descrição | Prioridade |
 |------|------------|------------|
@@ -215,7 +155,7 @@ Requisitos Não Funcionais (RNF)
 
 ---
 
-# Requisitos Não Funcionais (RNF)
+## Requisitos Não Funcionais (RNF)
 
 | ID    | Descrição | Categoria |
 |-------|------------|------------|
@@ -231,7 +171,7 @@ Requisitos Não Funcionais (RNF)
 
 ---
 
-# Restrições Técnicas
+## Restrições Técnicas
 
 - Não há backend real na Sprint 1; todos os dados são simulados por arquivos mock locais.
 - A funcionalidade de câmera real é simulada por um botão de placeholder.
@@ -283,7 +223,7 @@ Para simular a experiência mobile, pressione `F12` no Chrome e ative o modo de 
 
 ---
 
-Fotos do nosso MVP: 
+## Fotos do nosso MVP: 
 
 | Tela de login | Tela inicial | Tela com os trechos | Cadastro vistoria |
 |---|---|---|---|
