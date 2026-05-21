@@ -139,22 +139,12 @@ Fotos do nosso MVP:
 
 | Tela de login | Tela inicial | Tela com os trechos | Cadastro vistoria |
 |---------------|--------------|---------------------|-------------------|
-| ![Foto 1](imagens/foto1.png) | ![Foto 2](imagens/foto2.png) | ![Foto 3](imagens/foto3.png) | ![Foto 4](imagens/foto4.png) |
+| ![Tela login](docs/tela-login.png) | ![Tela inicial](docs/tela-inicio.png) | ![Tela com os trechos](docs/tela-trecho.png) | ![Cadastro vistoria](docs/vistoria.png) |
 
-|  Tela trecho com fotos | Classfica vegeteção| Tela recomendação | Tela relatório |
-|------------------------|--------------------|-------------------|----------------|
-| ![Foto 5](imagens/foto5.png) | ![Foto 6](imagens/foto6.png) | ![Foto 7](imagens/foto7.png) | ![Foto 8](imagens/foto8.png) |
-## Próximos Passos — Sprint 2
-
-- Integração com API de visão computacional (CNN) para análise automática de altura a partir de fotos
-- Backend real com banco de dados (Supabase ou Firebase)
-- Autenticação corporativa com matrícula Motiva
-- Mapa interativo dos trechos com geolocalização GPS
-- Exportação de relatórios em PDF para fins de auditoria ARTESP/ANTT
-- Notificações push para trechos que atingirem nível crítico
-- Modo offline com sincronização posterior
+| Tela trecho com fotos | Classifica vegetação | Tela recomendação | Tela relatório |
+|----------------------|----------------------|-------------------|----------------|
+| ![Tela trecho com fotos](docs/registro-foto.png) | ![Classifica vegetação](docs/vegetacao.png) | ![Tela recomendação](docs/recomendacao.png) | ![Tela relatório](docs/tela-relatorio.png) |
 
 ---
-
 
 Projeto acadêmico desenvolvido para o **Challenge CCR Motiva — FIAP 2026**.
