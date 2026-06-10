@@ -4,6 +4,27 @@
 
 ---
 
+## 🚀 Sprint 2 Disponível!
+
+O **app mobile nativo em React Native/Expo** está pronto em [app/](app/). 
+
+```bash
+cd app
+npm install --legacy-peer-deps
+npx expo start
+```
+
+Ver [app/COMO_RODAR.md](app/COMO_RODAR.md) para instruções completas.
+
+**Destaques Sprint 2:**
+- ✅ 3 dashboards customizados (Gestor, Fiscal, Trabalhador)
+- ✅ 5 telas funcionais com navegação dinâmica
+- ✅ Sistema de notificações com badge
+- ✅ Mock data realista (5 trechos SP-280, vistorias, intervenções)
+- ✅ Código TypeScript com Zustand + React Navigation
+
+---
+
 ## Contexto Regulatório
 
 A conservação de rodovias concedidas no Brasil é regulada pela **ARTESP** (Agência de Transporte do Estado de São Paulo) e pela **ANTT** (Agência Nacional de Transportes Terrestres), que estabelecem padrões mínimos de manutenção das faixas de domínio, incluindo o controle da vegetação. Entre as exigências, destaca-se o limite de altura da vegetação nas margens das pistas: quando ultrapassa **30 cm**, a concessionária está sujeita a notificações, penalidades contratuais e multas administrativas.
@@ -218,8 +239,8 @@ Para simular a experiência mobile, pressione `F12` no Chrome e ative o modo de 
 
 | Sprint | Status | Entrega |
 |--------|--------|---------|
-| Sprint 1 — Exploração, Requisitos e Protótipo | Concluída | Mai/2026 |
-| Sprint 2 — MVP com app no Android Studio | Planejada | Junho/2026 |
+| Sprint 1 — Exploração, Requisitos e Protótipo | ✅ Concluída | Mai/2026 |
+| Sprint 2 — App Mobile Nativo (React Native/Expo) | ✅ Concluída | Junho/2026 |
 
 ---
 
