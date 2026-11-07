@@ -1,5 +1,7 @@
 # VeroAI — Monitoramento Inteligente de Vegetação em Rodovias
 
+> **Versão inicial do VeroAI (protótipo web).** A versão final do projeto é o app Android em [sprint3-hercules](https://github.com/AndreNobrega125/sprint3-hercules). Este repositório fica como histórico.
+
 > **Challenge CCR Motiva · Sprint 1 — Exploração, Requisitos e Protótipo**
 
 ---
